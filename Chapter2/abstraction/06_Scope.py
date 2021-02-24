@@ -15,13 +15,13 @@ def my_scope():
 my_scope()
 print(y)
 
-x = 3 #글로벌변수
+z = 3 #글로벌변수
 def my_function():
-    x = 4 #로컬변수
-    print(x)
+    z = 4
+    print(z)
 
 my_function()
-print(x) #글로벌변수
+print(z) #글로벌변수
 
 #파라미터도 로컬 변수
 def square(x):
